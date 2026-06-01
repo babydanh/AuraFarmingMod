@@ -1,5 +1,5 @@
 Kế hoạch phát triển PvP Camera Mod
-Dự án này sẽ tạo ra một mod PvP (client-side) cho Minecraft 1.21.1, cho phép người chơi thực hiện các pha xoay góc nhìn (camera) đột ngột bằng các phím tắt. Các kỹ thuật này thường được dùng để đánh lạc hướng đối thủ (như kỹ thuật "jerk" hoặc múa trong PvP).
+Dự án này sẽ tạo ra một mod PvP (client-side) cho Minecraft 1.21.11, cho phép người chơi thực hiện các pha xoay góc nhìn (camera) đột ngột bằng các phím tắt. Các kỹ thuật này thường được dùng để đánh lạc hướng đối thủ (như kỹ thuật "jerk" hoặc múa trong PvP).
 
 ⚠️ User Review Required
 Bạn vui lòng xem qua các tính năng dưới đây xem đã đúng ý bạn chưa nhé. Nếu có chỗ nào cần sửa, hãy phản hồi lại cho mình.

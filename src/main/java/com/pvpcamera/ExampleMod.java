@@ -1,4 +1,4 @@
-package com.example;
+package com.pvpcamera;
 
 import net.fabricmc.api.ModInitializer;
 

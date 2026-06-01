@@ -1,38 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "pvp_camera",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "RotatingView",
+	"description": "A PvP mod that allows for random snapping and 360 degree spins.",
 	"authors": [
-		"Me!"
+		"Mac đ"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
-	"environment": "*",
+	"icon": "assets/pvp_camera/icon.png",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.pvpcamera.ExampleMod"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.pvpcamera.client.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"pvp_camera.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.2",
+		"fabricloader": "*",
 		"minecraft": "*",
-		"java": ">=21",
+		"java": "*",
 		"fabric-api": "*"
 	}
 }
