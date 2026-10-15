@@ -24,7 +24,7 @@ public class CameraActionHandler {
     private static float targetPitch;
 
     private static int animationTicks = 0;
-    private static int totalAnimationTicks = 10;
+    private static int totalAnimationTicks = 1;
     private static boolean returnAfter = false; // Có cần tự quay về góc cũ sau khi tới đích không
     private static float lastEasedProgress = 0f;
 
@@ -88,7 +88,7 @@ public class CameraActionHandler {
         returnAfter = true; // Bắt buộc quay về góc cũ
         animationTicks = 0;
         lastEasedProgress = 0f;
-        totalAnimationTicks = 4; // Tăng lên 4 ticks (0.2s) để mượt hơn
+        totalAnimationTicks = 1; // Chỉnh xuống 1 tick
     }
 
     private static void startSpin360(ClientPlayerEntity player) {
@@ -108,7 +108,7 @@ public class CameraActionHandler {
         returnAfter = false; // Quay 360 độ xong là đã ở vị trí cũ rồi, không cần quay lùi lại
         animationTicks = 0;
         lastEasedProgress = 0f;
-        totalAnimationTicks = 4; // Về lại 4 ticks (0.2s) nhưng dùng hàm mượt hơn
+        totalAnimationTicks = 1; // Chỉnh xuống 1 tick
     }
 
     private static void startRandomPitchSnap(ClientPlayerEntity player) {
@@ -144,7 +144,7 @@ public class CameraActionHandler {
         returnAfter = true; // Bắt buộc quay về góc cũ
         animationTicks = 0;
         lastEasedProgress = 0f;
-        totalAnimationTicks = 4; // Tăng lên 4 ticks (0.2s) để mượt hơn
+        totalAnimationTicks = 1; // Chỉnh xuống 1 tick
     }
 
     private static void animateCamera(ClientPlayerEntity player) {
